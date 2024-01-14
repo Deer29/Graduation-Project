@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    text-align: center;
+}
+@media (min-width:460px) and (max-width:1600px){
+    body{
+    background-size: cover;
+    background-image: url(./characters/photo/background.jpg)
+}
+}
+summary{
+    font-size: x-large;
+    border: 10px burlywood inset;
+    width: fit-content;
+    font-family: 'Archivo Black', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: xx-large;
+    color: black;
+    float: left;
+    font-family: 'Lemon', serif;
+    text-shadow: 5px 5px 5px burlywood;
+}
+.isis{
+    margin-top: 35px;
+    width: 1000px;
+    height: 500px;
+}
+.hours{
+    float: right;
+    width: 500px;
+    height: 400px;
+}
+.set{
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+h1{
+    font-family: 'Rubik Moonrocks', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px burlywood;
+
+}
+h2{
+    border: 10px burlywood inset;
+    width: fit-content;
+    font-size: 2rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+p{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    text-transform: capitalize;
+    color: black;
+    font-size: larger;
+}  
+div{
+    background-color: burlywood;
+    border: inset burlywood;
+    width: fit-content;
+}
